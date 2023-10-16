@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "ts project",
     "scripts": {
-      "build": "tsc -p tsconfig.json",
+      "build": "tsc -p tsconfig.json && node copyJsFile.js output ../ServerEnv/Scripts",
+      "buildOnly": "tsc -p tsconfig.json",
       "postbuild": "node copyJsFile.js output ../ServerEnv/Scripts"
     },
     "dependencies": {
