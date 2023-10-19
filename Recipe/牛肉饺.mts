@@ -6,6 +6,6 @@ recipe.Gold = 100;
 
 recipe.AddIngredient("牛肉");
 recipe.AddIngredient("千年雪霜");
-recipe.AddIngredient("金疮药(大量)");
+recipe.AddIngredient("魔法药(大量)");
 
 export default recipe;

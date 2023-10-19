@@ -1,4 +1,4 @@
-const recipe = new CS.Daboluo.Mir2.MirScripts.RecipeDefinition("龙骨刀");
+const recipe = new CS.Daboluo.Mir2.MirScripts.RecipeDefinition("骨斩刀");
 
 recipe.Amount = 1;
 recipe.Chance = 100;
