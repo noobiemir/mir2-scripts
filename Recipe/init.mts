@@ -48,6 +48,16 @@ import 软玉鞋 from "./软玉鞋.mjs";
 import 大火把 from "./大火把.mjs";
 import 中毒宝玉 from "./中毒宝玉.mjs";
 import 守护宝玉 from "./中毒宝玉.mjs";
+import 强化红玉腰带 from "./强化红玉腰带.mjs";
+import 红玉腰带 from "./红玉腰带.mjs";
+import 强化红玉鞋 from "./强化红玉鞋.mjs";
+import 红玉鞋 from "./红玉鞋.mjs";
+import 强化红玉轮 from "./强化红玉轮.mjs";
+import 红玉轮 from "./红玉轮.mjs";
+import 强化红玉项链 from "./强化红玉项链.mjs";
+import 红玉项链 from "./红玉项链.mjs";
+import 强化红玉环 from "./强化红玉环.mjs";
+import 红玉环 from "./红玉环.mjs";
 
 export default function Init(context: CS.Daboluo.Mir2.MirScripts.ServerInitializationScriptContext) {
     context.RecipeDefinitions.Add(金疮药_特大);
@@ -100,4 +110,14 @@ export default function Init(context: CS.Daboluo.Mir2.MirScripts.ServerInitializ
     context.RecipeDefinitions.Add(大火把);
     context.RecipeDefinitions.Add(中毒宝玉);
     context.RecipeDefinitions.Add(守护宝玉);
+    context.RecipeDefinitions.Add(强化红玉腰带);
+    context.RecipeDefinitions.Add(红玉腰带);
+    context.RecipeDefinitions.Add(强化红玉鞋);
+    context.RecipeDefinitions.Add(红玉鞋);
+    context.RecipeDefinitions.Add(强化红玉轮);
+    context.RecipeDefinitions.Add(红玉轮);
+    context.RecipeDefinitions.Add(强化红玉项链);
+    context.RecipeDefinitions.Add(红玉项链);
+    context.RecipeDefinitions.Add(强化红玉环);
+    context.RecipeDefinitions.Add(红玉环);
 }
