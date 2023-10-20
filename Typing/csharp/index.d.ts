@@ -678,6 +678,10 @@
         interface IEnumerator
         {
         }
+        interface IDictionary extends System.Collections.ICollection, System.Collections.IEnumerable
+        {
+            GetEnumerator () : System.Collections.IEnumerator
+        }
     }
     namespace System.Collections.Generic {
         interface IEnumerable$1<T> extends System.Collections.IEnumerable
@@ -767,6 +771,24 @@
         interface IEnumerator$1<T> extends System.IDisposable, System.Collections.IEnumerator
         {
         }
+        class Dictionary$2<TKey, TValue> extends System.Object implements System.Collections.Generic.IDictionary$2<TKey, TValue>, System.Collections.Generic.ICollection$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.Generic.IEnumerable$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.IEnumerable, System.Collections.IDictionary, System.Collections.ICollection, System.Collections.Generic.IReadOnlyDictionary$2<TKey, TValue>, System.Collections.Generic.IReadOnlyCollection$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Runtime.Serialization.ISerializable, System.Runtime.Serialization.IDeserializationCallback
+        {
+            protected [__keep_incompatibility]: never;
+            public GetEnumerator () : System.Collections.IEnumerator
+            public [Symbol.iterator]() : IterableIterator<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>
+        }
+        interface IDictionary$2<TKey, TValue> extends System.Collections.Generic.ICollection$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.Generic.IEnumerable$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.IEnumerable
+        {
+            GetEnumerator () : System.Collections.IEnumerator
+        }
+        class KeyValuePair$2<TKey, TValue> extends System.ValueType
+        {
+            protected [__keep_incompatibility]: never;
+        }
+        interface IReadOnlyDictionary$2<TKey, TValue> extends System.Collections.Generic.IReadOnlyCollection$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.Generic.IEnumerable$1<System.Collections.Generic.KeyValuePair$2<TKey, TValue>>, System.Collections.IEnumerable
+        {
+            GetEnumerator () : System.Collections.IEnumerator
+        }
     }
     namespace System.Runtime.InteropServices {
         class StructLayoutAttribute extends System.Attribute
@@ -853,6 +875,8 @@
         {
             protected [__keep_incompatibility]: never;
             public get RecipeDefinitions(): System.Collections.Generic.List$1<Daboluo.Mir2.MirScripts.RecipeDefinition>;
+            public get MonsterDropDefinitions(): System.Collections.Generic.Dictionary$2<string, System.Collections.Generic.List$1<Daboluo.Mir2.MirScripts.DropInfoDefinition>>;
+            public AddMonsterDropDefinitions ($monsterName: string, $dropInfoDefinitions: System.Collections.Generic.List$1<Daboluo.Mir2.MirScripts.DropInfoDefinition>) : void
             public constructor ()
         }
         class RecipeDefinition extends System.Object
@@ -879,9 +903,31 @@
             public constructor ($item: string)
             public constructor ()
         }
+        class DropInfoDefinition extends System.Object
+        {
+            protected [__keep_incompatibility]: never;
+            public get Chance(): number;
+            public get Gold(): number | null;
+            public get Type(): number;
+            public get QuestRequired(): boolean;
+            public get GroupDrop(): Daboluo.Mir2.MirScripts.GroupDropInfoDefinition;
+            public constructor ($gold: number, $chance: number)
+            public constructor ($item: string, $chance: number, $type?: number, $questRequired?: boolean)
+            public constructor ($chance: number, $groupDrop: Daboluo.Mir2.MirScripts.GroupDropInfoDefinition)
+            public constructor ()
+        }
         class IngredientDefinition extends System.Object
         {
             protected [__keep_incompatibility]: never;
+        }
+        class GroupDropInfoDefinition extends System.Object
+        {
+            protected [__keep_incompatibility]: never;
+            public get Drops(): System.Collections.Generic.List$1<Daboluo.Mir2.MirScripts.DropInfoDefinition>;
+            public get Mode(): Daboluo.Mir2.GroupedDropMode;
+            public Add ($drop: Daboluo.Mir2.MirScripts.DropInfoDefinition) : void
+            public constructor ($mode: Daboluo.Mir2.GroupedDropMode)
+            public constructor ()
         }
     }
     namespace Microsoft.Extensions.Logging {
@@ -897,5 +943,7 @@
         { Male = 0, Female = 1 }
         enum MirClass
         { Warrior = 0, Wizard = 1, Taoist = 2, Assassin = 3, Archer = 4 }
+        enum GroupedDropMode
+        { Default = 0, First = 1, Random = 2, All = 3 }
     }
 }
