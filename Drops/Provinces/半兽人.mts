@@ -2,6 +2,10 @@ import DropList from "../common.mjs";
 const Drop = CS.Daboluo.Mir2.MirScripts.DropInfoDefinition;
 const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
 
+// 格式:drops.Add(new Drop({物品},{几率}))
+// 物品：如输入数字，则为金钱掉落，如输入字符串则为物品掉落
+// 几率：物品掉落率为 1 ÷ {几率}，如100则几率为 1%; 400 则为 0.25%
+
 //钱
 drops.Add(new Drop(100, 20));
 
