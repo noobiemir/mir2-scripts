@@ -6,6 +6,6 @@ recipe.Gold = 1000;
 
 recipe.AddIngredient("猎鹰蛋");
 recipe.AddIngredient("千年雪霜");
-recipe.AddIngredient("魔力药水(小)");
+recipe.AddIngredient("魔法药水(小)");
 
 export default recipe;
