@@ -876,6 +876,7 @@
             protected [__keep_incompatibility]: never;
             public get RecipeDefinitions(): System.Collections.Generic.List$1<Daboluo.Mir2.MirScripts.RecipeDefinition>;
             public get MonsterDropDefinitions(): System.Collections.Generic.Dictionary$2<string, System.Collections.Generic.List$1<Daboluo.Mir2.MirScripts.DropInfoDefinition>>;
+            public get ServerSettingsDefinitions(): Daboluo.Mir2.MirScripts.ServerSettingsDefinition;
             public AddMonsterDropDefinitions ($monsterName: string, $dropInfoDefinitions: System.Collections.Generic.List$1<Daboluo.Mir2.MirScripts.DropInfoDefinition>) : void
             public constructor ()
         }
@@ -914,6 +915,13 @@
             public constructor ($gold: number, $chance: number)
             public constructor ($item: string, $chance: number, $type?: number, $questRequired?: boolean)
             public constructor ($chance: number, $groupDrop: Daboluo.Mir2.MirScripts.GroupDropInfoDefinition)
+            public constructor ()
+        }
+        class ServerSettingsDefinition extends System.Object
+        {
+            protected [__keep_incompatibility]: never;
+            public get DropRate(): number;
+            public set DropRate(value: number);
             public constructor ()
         }
         class IngredientDefinition extends System.Object
