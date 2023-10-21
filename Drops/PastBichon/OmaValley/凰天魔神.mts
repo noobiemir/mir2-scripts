@@ -2,14 +2,14 @@ import DropList from "../../common.mjs";
 const Drop = CS.Daboluo.Mir2.MirScripts.DropInfoDefinition;
 const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
 
-// 格式:drops.Add(new Drop({物品},{几率}))
+// drops.Add(new Drop({物品},{几率}))
 // 物品：如输入数字，则为金钱掉落，如输入字符串则为物品掉落
 // 几率：物品掉落率为 1 ÷ {几率}，如100则几率为 1%; 400 则为 0.25%
 
 //钱
 drops.Add(new Drop(35000, 1));
 
-//武器
+// 武器
 drops.Add(new Drop("玄天", 400))
 drops.Add(new Drop("BowOfForce", 400))
 drops.Add(new Drop("暗真魔刀", 400))
@@ -31,7 +31,7 @@ drops.Add(new Drop("MaleficBow", 200))
 drops.Add(new Drop("开天", 400))
 drops.Add(new Drop("逍遥扇", 150))
 
-//衣服
+// 衣服
 drops.Add(new Drop("鬼面甲胄(男)", 5))
 drops.Add(new Drop("鬼面甲胄(女)", 5))
 drops.Add(new Drop("火龙魔衣(男)", 5))
@@ -57,7 +57,7 @@ drops.Add(new Drop("StuddedArmour(女)", 5))
 drops.Add(new Drop("赤之魔甲(女)", 500))
 drops.Add(new Drop("黑之魔甲(女)", 500))
 
-//头盔
+// 头盔
 drops.Add(new Drop("道士头盔", 5))
 drops.Add(new Drop("钢铁头盔", 10))
 drops.Add(new Drop("黄铜头盔", 10))
@@ -68,7 +68,7 @@ drops.Add(new Drop("贤者帽", 40))
 drops.Add(new Drop("通天冠", 40))
 drops.Add(new Drop("骷髅头盔", 5))
 
-//项链
+// 项链
 drops.Add(new Drop("放大镜", 5))
 drops.Add(new Drop("技巧项链", 500))
 drops.Add(new Drop("镇魂项链", 60))
@@ -83,7 +83,7 @@ drops.Add(new Drop("蓝翡翠项链", 5))
 drops.Add(new Drop("白色虎齿项链", 5))
 drops.Add(new Drop("灯笼项链", 5))
 
-//手镯
+// 手镯
 drops.Add(new Drop("龙之手镯", 20))
 drops.Add(new Drop("骑士手镯", 20))
 drops.Add(new Drop("金手镯", 5))
@@ -98,7 +98,7 @@ drops.Add(new Drop("魂锁轮", 90))
 drops.Add(new Drop("太极轮", 90))
 drops.Add(new Drop("八极轮", 70))
 
-//戒指
+// 戒指
 drops.Add(new Drop("魅力戒指", 5))
 drops.Add(new Drop("复活戒指", 3000))
 drops.Add(new Drop("麻痹戒指", 5000))
@@ -119,23 +119,23 @@ drops.Add(new Drop("太极环", 70))
 drops.Add(new Drop("传送戒指", 2500))
 drops.Add(new Drop("泰坦戒指", 25))
 
-//护身符
+// 护身符
 
-//腰带
+// 腰带
 drops.Add(new Drop("黄金腰带", 50))
 drops.Add(new Drop("青铜腰带", 10))
 drops.Add(new Drop("铁腰带", 15))
 
-//鞋子
+// 鞋子
 drops.Add(new Drop("紫绸靴", 10))
 drops.Add(new Drop("避魂靴", 20))
 drops.Add(new Drop("龙靴", 30))
 
-//石头
+// 石头
 
-//火把
+// 火把
 
-//药水
+// 药水
 drops.Add(new Drop("疾风药水(大)", 10))
 drops.Add(new Drop("金疮药(大量)", 1))
 drops.Add(new Drop("道力药水(大)", 10))
@@ -167,18 +167,18 @@ drops.Add(new Drop("金疮药(特大)", 1))
 drops.Add(new Drop("金疮药(特大)", 2))
 drops.Add(new Drop("金疮药(特大)", 2))
 
-//矿石
+// 矿石
 
-//肉
+// 肉
 
-//工艺材料
+// 工艺材料
 drops.Add(new Drop("邪眼骷髅", 20))
 
-//卷轴
+// 卷轴
 drops.Add(new Drop("祝福油", 2))
 drops.Add(new Drop("祝福油", 5))
 
-//宝石
+// 宝石
 drops.Add(new Drop("觉醒神珠", 200))
 drops.Add(new Drop("忍耐神珠", 200))
 drops.Add(new Drop("酷寒神珠", 300))
@@ -190,9 +190,9 @@ drops.Add(new Drop("仙界神珠", 100))
 drops.Add(new Drop("勇猛神珠", 100))
 drops.Add(new Drop("集中神珠", 140))
 
-//坐骑
+// 坐骑
 
-//技能书
+// 技能书
 drops.Add(new Drop("火龙气焰", 200))
 drops.Add(new Drop("召唤月灵", 120))
 drops.Add(new Drop("嗜血术", 160))
@@ -209,41 +209,41 @@ drops.Add(new Drop("圆月弯刀", 100))
 drops.Add(new Drop("攻破斩", 200))
 drops.Add(new Drop("净化术", 50))
 
-//杂物
+// 杂物
 
-//缰绳
+// 缰绳
 
-//铃铛
+// 铃铛
 
-//马鞍
+// 马鞍
 
-//丝带
+// 丝带
 
-//面具
+// 面具
 
-//食物
+// 食物
 
-//钩
+// 钩
 
-//浮标
+// 浮标
 
-//饵
+// 饵
 
-//探鱼器
+// 探鱼器
 
-//鱼线轮
+// 鱼线轮
 
-//鱼
+// 鱼
 
-//任务
+// 任务
 
-//觉醒
+// 觉醒
 
-//宠物
+// 宠物
 
-//变身
+// 变身
 
-//其它
+// 其它
 drops.Add(new Drop("金条", 10))
 drops.Add(new Drop("金砖", 50))
 drops.Add(new Drop("金盒", 500))

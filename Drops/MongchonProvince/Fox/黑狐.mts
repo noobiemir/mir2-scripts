@@ -2,50 +2,50 @@ import DropList from "../../common.mjs";
 const Drop = CS.Daboluo.Mir2.MirScripts.DropInfoDefinition;
 const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
 
-// 格式:drops.Add(new Drop({物品},{几率}))
+// drops.Add(new Drop({物品},{几率}))
 // 物品：如输入数字，则为金钱掉落，如输入字符串则为物品掉落
 // 几率：物品掉落率为 1 ÷ {几率}，如100则几率为 1%; 400 则为 0.25%
 
 //钱
 drops.Add(new Drop(2500, 20));
 
-//武器
+// 武器
 drops.Add(new Drop("炼狱", 600))
 drops.Add(new Drop("银蛇", 600))
 drops.Add(new Drop("魔杖", 600))
 drops.Add(new Drop("双极刀", 600))
 
-//衣服
+// 衣服
 
-//头盔
+// 头盔
 
-//项链
+// 项链
 drops.Add(new Drop("镇魂项链", 640))
 drops.Add(new Drop("红玉项链", 640))
 drops.Add(new Drop("五玄项链", 640))
 
-//手镯
+// 手镯
 drops.Add(new Drop("雪玉手镯", 540))
 
-//戒指
+// 戒指
 drops.Add(new Drop("红玉环", 560))
 drops.Add(new Drop("天音戒指", 560))
 
-//护身符
+// 护身符
 
-//腰带
+// 腰带
 drops.Add(new Drop("青铜腰带", 500))
 drops.Add(new Drop("钢铁腰带", 500))
 
-//鞋子
+// 鞋子
 drops.Add(new Drop("避魂靴", 380))
 drops.Add(new Drop("龙靴", 580))
 
-//石头
+// 石头
 
-//火把
+// 火把
 
-//药水
+// 药水
 drops.Add(new Drop("强效太阳水", 20))
 drops.Add(new Drop("疾风药水(小)", 100))
 drops.Add(new Drop("体力药水(小)", 100))
@@ -58,19 +58,19 @@ drops.Add(new Drop("金疮药(大量)", 10))
 drops.Add(new Drop("金疮药(大量)", 10))
 drops.Add(new Drop("强效太阳水", 20))
 
-//矿石
+// 矿石
 
-//肉
+// 肉
 
-//工艺材料
+// 工艺材料
 
-//卷轴
+// 卷轴
 
-//宝石
+// 宝石
 
-//坐骑
+// 坐骑
 
-//技能书
+// 技能书
 drops.Add(new Drop("月影术", 200))
 drops.Add(new Drop("狮子吼", 600))
 drops.Add(new Drop("双龙斩", 200))
@@ -79,41 +79,41 @@ drops.Add(new Drop("护身气幕", 400))
 drops.Add(new Drop("攻破斩", 800))
 drops.Add(new Drop("捕绳剑", 600))
 
-//杂物
+// 杂物
 
-//缰绳
+// 缰绳
 
-//铃铛
+// 铃铛
 
-//马鞍
+// 马鞍
 
-//丝带
+// 丝带
 
-//面具
+// 面具
 
-//食物
+// 食物
 
-//钩
+// 钩
 
-//浮标
+// 浮标
 
-//饵
+// 饵
 
-//探鱼器
+// 探鱼器
 
-//鱼线轮
+// 鱼线轮
 
-//鱼
+// 鱼
 
-//任务
+// 任务
 
-//觉醒
+// 觉醒
 
-//宠物
+// 宠物
 
-//变身
+// 变身
 
-//其它
+// 其它
 drops.Add(new Drop("狐月神珠", 100))
 
 export default drops;

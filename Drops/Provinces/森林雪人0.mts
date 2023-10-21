@@ -2,14 +2,14 @@ import DropList from "../common.mjs";
 const Drop = CS.Daboluo.Mir2.MirScripts.DropInfoDefinition;
 const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
 
-// 格式:drops.Add(new Drop({物品},{几率}))
+// drops.Add(new Drop({物品},{几率}))
 // 物品：如输入数字，则为金钱掉落，如输入字符串则为物品掉落
 // 几率：物品掉落率为 1 ÷ {几率}，如100则几率为 1%; 400 则为 0.25%
 
 //钱
 drops.Add(new Drop(100, 10));
 
-//武器
+// 武器
 drops.Add(new Drop("八荒", 400))
 drops.Add(new Drop("CompoundBow", 400))
 drops.Add(new Drop("音速刀", 400))
@@ -28,17 +28,17 @@ drops.Add(new Drop("虎牙刀", 60))
 drops.Add(new Drop("木剑", 60))
 drops.Add(new Drop("ShortBow", 140))
 
-//衣服
+// 衣服
 drops.Add(new Drop("布衣(男)", 100))
 drops.Add(new Drop("布衣(女)", 100))
 drops.Add(new Drop("轻型盔甲(男)", 300))
 drops.Add(new Drop("轻型盔甲(女)", 300))
 
-//头盔
+// 头盔
 drops.Add(new Drop("青铜头盔", 150))
 drops.Add(new Drop("魔法头盔", 200))
 
-//项链
+// 项链
 drops.Add(new Drop("琥珀项链", 700))
 drops.Add(new Drop("黑檀项链", 200))
 drops.Add(new Drop("魔鬼项链", 700))
@@ -48,7 +48,7 @@ drops.Add(new Drop("传统项链", 80))
 drops.Add(new Drop("黑色水晶项链", 200))
 drops.Add(new Drop("金项链", 60))
 
-//手镯
+// 手镯
 drops.Add(new Drop("铁手镯", 80))
 drops.Add(new Drop("小手镯", 300))
 drops.Add(new Drop("皮制手套", 300))
@@ -56,22 +56,22 @@ drops.Add(new Drop("银手镯", 400))
 drops.Add(new Drop("钢手镯", 400))
 drops.Add(new Drop("大手镯", 400))
 
-//戒指
+// 戒指
 drops.Add(new Drop("蓝色水晶戒指", 200))
 drops.Add(new Drop("玻璃戒指", 110))
 drops.Add(new Drop("六角戒指", 110))
 drops.Add(new Drop("古铜戒指", 60))
 drops.Add(new Drop("牛角戒指", 110))
 
-//护身符
+// 护身符
 
-//腰带
+// 腰带
 drops.Add(new Drop("兽皮腰带", 500))
 
-//鞋子
+// 鞋子
 drops.Add(new Drop("布鞋", 540))
 
-//石头
+// 石头
 drops.Add(new Drop("道术守护石(小)", 1500))
 drops.Add(new Drop("生命守护石(小)", 1500))
 drops.Add(new Drop("魔力守护石(小)", 1500))
@@ -79,63 +79,63 @@ drops.Add(new Drop("能力守护石(小)", 1500))
 drops.Add(new Drop("攻击守护石(小)", 1500))
 drops.Add(new Drop("魔法守护石(小)", 1500))
 
-//火把
+// 火把
 
-//药水
+// 药水
 drops.Add(new Drop("金疮药(中量)", 200))
 drops.Add(new Drop("魔法药(小量)", 60))
 drops.Add(new Drop("太阳水", 600))
 drops.Add(new Drop("魔法药(中量)", 200))
 drops.Add(new Drop("金疮药(小量)", 60))
 
-//矿石
+// 矿石
 
-//肉
+// 肉
 
-//工艺材料
+// 工艺材料
 
-//卷轴
+// 卷轴
 
-//宝石
+// 宝石
 
-//坐骑
+// 坐骑
 
-//技能书
+// 技能书
 
-//杂物
+// 杂物
 
-//缰绳
+// 缰绳
 
-//铃铛
+// 铃铛
 
-//马鞍
+// 马鞍
 
-//丝带
+// 丝带
 
-//面具
+// 面具
 
-//食物
+// 食物
 
-//钩
+// 钩
 
-//浮标
+// 浮标
 
-//饵
+// 饵
 
-//探鱼器
+// 探鱼器
 
-//鱼线轮
+// 鱼线轮
 
-//鱼
+// 鱼
 
-//任务
+// 任务
 
-//觉醒
+// 觉醒
 
-//宠物
+// 宠物
 
-//变身
+// 变身
 
-//其它
+// 其它
 
 export default drops;
