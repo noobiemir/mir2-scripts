@@ -20,9 +20,9 @@ drops.Add(new Drop("修罗", 100))
 drops.Add(new Drop("破魂", 50))
 drops.Add(new Drop("斩马刀", 50))
 drops.Add(new Drop("降魔", 50))
-drops.Add(new Drop("LitheBow", 100000))
+drops.Add(new Drop("霸王弓", 100000))
 drops.Add(new Drop("墨铁刀", 50))
-drops.Add(new Drop("LongBow", 50))
+drops.Add(new Drop("绝命弓", 50))
 
 // 衣服
 drops.Add(new Drop("魔法长袍(女)", 150))

@@ -21,8 +21,8 @@ drops.Add(new Drop("裁决之杖", 150))
 drops.Add(new Drop("骨玉权杖", 150))
 drops.Add(new Drop("无极棍", 150))
 drops.Add(new Drop("暗黑刀", 150))
-drops.Add(new Drop("FiendBow", 150))
-drops.Add(new Drop("SilverBow", 15))
+drops.Add(new Drop("魂魅弓", 150))
+drops.Add(new Drop("满义弓", 15))
 
 // 衣服
 drops.Add(new Drop("LightLeatherArmour(女)", 6))

@@ -14,7 +14,7 @@ drops.Add(new Drop("逍遥扇", 6000))
 drops.Add(new Drop("冷月刀", 6000))
 drops.Add(new Drop("怒斩", 6000))
 drops.Add(new Drop("龙牙", 6000))
-drops.Add(new Drop("LitheBow", 6000))
+drops.Add(new Drop("霸王弓", 6000))
 
 // 衣服
 drops.Add(new Drop("StuddedArmour(女)", 3000))

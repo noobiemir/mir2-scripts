@@ -10,7 +10,7 @@ const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
 drops.Add(new Drop(8000, 5));
 
 // 武器
-drops.Add(new Drop("LitheBow", 400))
+drops.Add(new Drop("霸王弓", 400))
 drops.Add(new Drop("龙牙", 400))
 drops.Add(new Drop("逍遥扇", 400))
 drops.Add(new Drop("怒斩", 400))

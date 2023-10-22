@@ -13,14 +13,14 @@ drops.Add(new Drop(100, 20));
 drops.Add(new Drop("暴虎刀", 140))
 drops.Add(new Drop("木剑", 60))
 drops.Add(new Drop("虎牙刀", 60))
-drops.Add(new Drop("WoodenBow", 60))
+drops.Add(new Drop("木弓", 60))
 drops.Add(new Drop("匕首", 90))
 drops.Add(new Drop("乌木剑", 100))
-drops.Add(new Drop("EbonyBow", 100))
+drops.Add(new Drop("革弓", 100))
 drops.Add(new Drop("青铜剑", 140))
-drops.Add(new Drop("ShortBow", 140))
+drops.Add(new Drop("铁弓", 140))
 drops.Add(new Drop("铁剑", 180))
-drops.Add(new Drop("BoneBow", 180))
+drops.Add(new Drop("弩弓", 180))
 drops.Add(new Drop("短剑", 220))
 
 // 衣服

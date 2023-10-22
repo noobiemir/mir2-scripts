@@ -12,10 +12,10 @@ drops.Add(new Drop(50, 10));
 // 武器
 drops.Add(new Drop("木剑", 50))
 drops.Add(new Drop("虎牙刀", 50))
-drops.Add(new Drop("WoodenBow", 50))
+drops.Add(new Drop("木弓", 50))
 drops.Add(new Drop("匕首", 100))
 drops.Add(new Drop("乌木剑", 100))
-drops.Add(new Drop("EbonyBow", 100))
+drops.Add(new Drop("革弓", 100))
 
 // 衣服
 drops.Add(new Drop("布衣(女)", 100))

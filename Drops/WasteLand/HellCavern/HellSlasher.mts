@@ -11,7 +11,7 @@ drops.Add(new Drop(2250, 10));
 
 // 武器
 drops.Add(new Drop("偃月", 50))
-drops.Add(new Drop("LitheBow", 10000))
+drops.Add(new Drop("霸王弓", 10000))
 drops.Add(new Drop("冷月刀", 10000))
 drops.Add(new Drop("逍遥扇", 10000))
 drops.Add(new Drop("怒斩", 10000))
@@ -21,7 +21,7 @@ drops.Add(new Drop("修罗", 100))
 drops.Add(new Drop("破魂", 50))
 drops.Add(new Drop("斩马刀", 50))
 drops.Add(new Drop("降魔", 50))
-drops.Add(new Drop("LongBow", 50))
+drops.Add(new Drop("绝命弓", 50))
 drops.Add(new Drop("墨铁刀", 50))
 
 // 衣服

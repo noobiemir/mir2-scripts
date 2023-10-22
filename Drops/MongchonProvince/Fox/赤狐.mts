@@ -62,7 +62,7 @@ drops.Add(new Drop("强效太阳水", 20))
 
 // 技能书
 drops.Add(new Drop("寒冰掌", 200))
-drops.Add(new Drop("火龙术", 200))
+drops.Add(new Drop("灭天火", 200))
 
 // 杂物
 

@@ -74,7 +74,7 @@ drops.Add(new Drop("召唤月灵", 2000))
 drops.Add(new Drop("轻身步", 800))
 drops.Add(new Drop("狮子吼", 200))
 drops.Add(new Drop("净化术", 800))
-drops.Add(new Drop("嗜血术", 200))
+drops.Add(new Drop("噬血术", 200))
 
 // 杂物
 

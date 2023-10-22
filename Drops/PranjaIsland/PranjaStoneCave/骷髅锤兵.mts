@@ -11,12 +11,12 @@ drops.Add(new Drop(2000, 10));
 
 // 武器
 drops.Add(new Drop("井中月", 2000))
-drops.Add(new Drop("LitheBow", 12000))
+drops.Add(new Drop("霸王弓", 12000))
 drops.Add(new Drop("冷月刀", 12000))
 drops.Add(new Drop("逍遥扇", 12000))
 drops.Add(new Drop("怒斩", 12000))
 drops.Add(new Drop("龙牙", 12000))
-drops.Add(new Drop("FiendBow", 6000))
+drops.Add(new Drop("魂魅弓", 6000))
 drops.Add(new Drop("暗黑刀", 6000))
 drops.Add(new Drop("无极棍", 6000))
 drops.Add(new Drop("骨玉权杖", 6000))

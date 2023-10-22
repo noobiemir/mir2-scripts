@@ -11,7 +11,7 @@ drops.Add(new Drop(500, 5));
 
 // 武器
 drops.Add(new Drop("双极刀", 4000))
-drops.Add(new Drop("SilverBow", 4000))
+drops.Add(new Drop("满义弓", 4000))
 drops.Add(new Drop("银蛇", 4000))
 drops.Add(new Drop("魔杖", 4000))
 drops.Add(new Drop("炼狱", 4000))
@@ -22,7 +22,7 @@ drops.Add(new Drop("降魔", 80))
 drops.Add(new Drop("偃月", 80))
 drops.Add(new Drop("斩马刀", 80))
 drops.Add(new Drop("破魂", 80))
-drops.Add(new Drop("LongBow", 80))
+drops.Add(new Drop("绝命弓", 80))
 
 // 衣服
 drops.Add(new Drop("残影魔衣(男)", 250))
@@ -105,7 +105,7 @@ drops.Add(new Drop("虫壳", 25))
 // 坐骑
 
 // 技能书
-drops.Add(new Drop("火龙术", 1200))
+drops.Add(new Drop("灭天火", 1200))
 drops.Add(new Drop("捕缚术", 750))
 drops.Add(new Drop("无极真气", 750))
 drops.Add(new Drop("双龙斩", 800))

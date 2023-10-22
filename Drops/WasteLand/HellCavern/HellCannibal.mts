@@ -13,7 +13,7 @@ drops.Add(new Drop(2250, 10));
 drops.Add(new Drop("破魂", 50))
 drops.Add(new Drop("凝霜", 200))
 drops.Add(new Drop("修罗", 100))
-drops.Add(new Drop("LongBow", 50))
+drops.Add(new Drop("绝命弓", 50))
 drops.Add(new Drop("墨铁刀", 50))
 drops.Add(new Drop("偃月", 50))
 drops.Add(new Drop("降魔", 50))

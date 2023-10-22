@@ -12,7 +12,7 @@ drops.Add(new Drop(2250, 1));
 // 武器
 drops.Add(new Drop("凝霜", 22))
 drops.Add(new Drop("修罗", 15))
-drops.Add(new Drop("LongBow", 6))
+drops.Add(new Drop("绝命弓", 6))
 drops.Add(new Drop("墨铁刀", 6))
 drops.Add(new Drop("降魔", 6))
 drops.Add(new Drop("斩马刀", 6))

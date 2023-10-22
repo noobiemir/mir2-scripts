@@ -10,7 +10,7 @@ const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
 drops.Add(new Drop(350, 10));
 
 // 武器
-drops.Add(new Drop("SilverBow", 10000))
+drops.Add(new Drop("满义弓", 10000))
 drops.Add(new Drop("双极刀", 10000))
 drops.Add(new Drop("银蛇", 10000))
 drops.Add(new Drop("魔杖", 10000))
@@ -22,7 +22,7 @@ drops.Add(new Drop("降魔", 200))
 drops.Add(new Drop("偃月", 200))
 drops.Add(new Drop("斩马刀", 200))
 drops.Add(new Drop("破魂", 200))
-drops.Add(new Drop("LongBow", 200))
+drops.Add(new Drop("绝命弓", 200))
 
 // 衣服
 drops.Add(new Drop("残影魔衣(男)", 800))

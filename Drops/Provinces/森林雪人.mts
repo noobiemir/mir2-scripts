@@ -11,22 +11,22 @@ drops.Add(new Drop(100, 10));
 
 // 武器
 drops.Add(new Drop("八荒", 400))
-drops.Add(new Drop("CompoundBow", 400))
+drops.Add(new Drop("杉木铁弓", 400))
 drops.Add(new Drop("音速刀", 400))
 drops.Add(new Drop("半月", 400))
 drops.Add(new Drop("海魂", 400))
 drops.Add(new Drop("短剑", 220))
 drops.Add(new Drop("铁剑", 180))
 drops.Add(new Drop("暴虎刀", 140))
-drops.Add(new Drop("BoneBow", 180))
+drops.Add(new Drop("弩弓", 180))
 drops.Add(new Drop("青铜剑", 140))
-drops.Add(new Drop("EbonyBow", 90))
+drops.Add(new Drop("革弓", 90))
 drops.Add(new Drop("乌木剑", 90))
 drops.Add(new Drop("匕首", 90))
-drops.Add(new Drop("WoodenBow", 60))
+drops.Add(new Drop("木弓", 60))
 drops.Add(new Drop("虎牙刀", 60))
 drops.Add(new Drop("木剑", 60))
-drops.Add(new Drop("ShortBow", 140))
+drops.Add(new Drop("铁弓", 140))
 
 // 衣服
 drops.Add(new Drop("布衣(男)", 100))

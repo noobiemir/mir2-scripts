@@ -14,7 +14,7 @@ drops.Add(new Drop("炼狱", 500))
 drops.Add(new Drop("魔杖", 500))
 drops.Add(new Drop("银蛇", 500))
 drops.Add(new Drop("双极刀", 500))
-drops.Add(new Drop("SilverBow", 500))
+drops.Add(new Drop("满义弓", 500))
 
 // 衣服
 

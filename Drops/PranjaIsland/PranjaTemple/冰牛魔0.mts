@@ -13,7 +13,7 @@ drops.Add(new Drop(5250, 5));
 drops.Add(new Drop("斩马刀", 20))
 drops.Add(new Drop("凝霜", 22))
 drops.Add(new Drop("修罗", 15))
-drops.Add(new Drop("LongBow", 20))
+drops.Add(new Drop("绝命弓", 20))
 drops.Add(new Drop("墨铁刀", 20))
 drops.Add(new Drop("降魔", 20))
 drops.Add(new Drop("偃月", 20))
@@ -115,7 +115,7 @@ drops.Add(new Drop("疾风珠", 34))
 // 技能书
 drops.Add(new Drop("迷魂术", 1900))
 drops.Add(new Drop("捕缚术", 1900))
-drops.Add(new Drop("嗜血术", 1900))
+drops.Add(new Drop("噬血术", 1900))
 
 // 杂物
 

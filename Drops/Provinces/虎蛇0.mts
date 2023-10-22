@@ -11,14 +11,14 @@ drops.Add(new Drop(2000, 1));
 
 // 武器
 drops.Add(new Drop("短剑", 22))
-drops.Add(new Drop("BoneBow", 12))
+drops.Add(new Drop("弩弓", 12))
 drops.Add(new Drop("铁剑", 12))
-drops.Add(new Drop("ShortBow", 10))
+drops.Add(new Drop("铁弓", 10))
 drops.Add(new Drop("青铜剑", 10))
-drops.Add(new Drop("EbonyBow", 9))
+drops.Add(new Drop("革弓", 9))
 drops.Add(new Drop("暴虎刀", 10))
 drops.Add(new Drop("匕首", 9))
-drops.Add(new Drop("WoodenBow", 6))
+drops.Add(new Drop("木弓", 6))
 drops.Add(new Drop("虎牙刀", 6))
 drops.Add(new Drop("木剑", 6))
 drops.Add(new Drop("乌木剑", 9))

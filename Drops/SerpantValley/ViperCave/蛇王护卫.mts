@@ -15,11 +15,11 @@ drops.Add(new Drop("龙牙", 3500))
 drops.Add(new Drop("怒斩", 3500))
 drops.Add(new Drop("逍遥扇", 3500))
 drops.Add(new Drop("冷月刀", 3500))
-drops.Add(new Drop("LitheBow", 3500))
+drops.Add(new Drop("霸王弓", 3500))
 drops.Add(new Drop("屠龙", 8000))
 drops.Add(new Drop("噬魂法杖", 8000))
 drops.Add(new Drop("暗之修罗刀", 8000))
-drops.Add(new Drop("MaleficBow", 8000))
+drops.Add(new Drop("黄龙弓", 8000))
 
 // 衣服
 

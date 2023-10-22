@@ -10,7 +10,7 @@ const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
 drops.Add(new Drop(60000, 1));
 
 // 武器
-drops.Add(new Drop("LethalBow", 500))
+drops.Add(new Drop("大力神弓", 500))
 drops.Add(new Drop("鹤羽扇", 500))
 drops.Add(new Drop("火莲杖", 500))
 drops.Add(new Drop("黑虎斧", 400))
@@ -104,7 +104,7 @@ drops.Add(new Drop("制魔神珠", 200))
 
 // 技能书
 drops.Add(new Drop("诅咒术", 200))
-drops.Add(new Drop("攻破斩", 50))
+drops.Add(new Drop("空破闪", 50))
 drops.Add(new Drop("护身气幕", 200))
 drops.Add(new Drop("烈火身", 200))
 drops.Add(new Drop("火龙气焰", 200))
@@ -114,7 +114,7 @@ drops.Add(new Drop("剑气爆", 400))
 drops.Add(new Drop("轻身步", 400))
 drops.Add(new Drop("召唤月灵", 200))
 drops.Add(new Drop("阴阳盾", 600))
-drops.Add(new Drop("嗜血术", 50))
+drops.Add(new Drop("噬血术", 50))
 drops.Add(new Drop("迷魂术", 50))
 drops.Add(new Drop("捕绳剑", 50))
 drops.Add(new Drop("月影术", 50))

@@ -64,7 +64,7 @@ drops.Add(new Drop("强效太阳水", 100))
 // 坐骑
 
 // 技能书
-drops.Add(new Drop("嗜血术", 8500))
+drops.Add(new Drop("噬血术", 8500))
 drops.Add(new Drop("狮子吼", 10000))
 
 // 杂物

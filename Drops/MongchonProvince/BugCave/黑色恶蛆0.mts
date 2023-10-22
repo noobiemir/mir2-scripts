@@ -15,7 +15,7 @@ drops.Add(new Drop("斩马刀", 20))
 drops.Add(new Drop("偃月", 20))
 drops.Add(new Drop("降魔", 20))
 drops.Add(new Drop("墨铁刀", 20))
-drops.Add(new Drop("LongBow", 20))
+drops.Add(new Drop("绝命弓", 20))
 drops.Add(new Drop("修罗", 90))
 drops.Add(new Drop("凝霜", 60))
 

@@ -14,7 +14,7 @@ drops.Add(new Drop("冷月刀", 90000))
 drops.Add(new Drop("逍遥扇", 90000))
 drops.Add(new Drop("怒斩", 90000))
 drops.Add(new Drop("龙牙", 90000))
-drops.Add(new Drop("LitheBow", 90000))
+drops.Add(new Drop("霸王弓", 90000))
 
 // 衣服
 drops.Add(new Drop("战神盔甲(男)", 500))

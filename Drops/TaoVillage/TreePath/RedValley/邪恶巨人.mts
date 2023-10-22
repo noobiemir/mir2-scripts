@@ -10,11 +10,11 @@ const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
 drops.Add(new Drop(4000, 10));
 
 // 武器
-drops.Add(new Drop("SilverBow", 400))
+drops.Add(new Drop("满义弓", 400))
 drops.Add(new Drop("骨玉权杖", 3000))
 drops.Add(new Drop("无极棍", 3000))
 drops.Add(new Drop("暗黑刀", 3000))
-drops.Add(new Drop("FiendBow", 3000))
+drops.Add(new Drop("魂魅弓", 3000))
 drops.Add(new Drop("银蛇", 400))
 drops.Add(new Drop("魔杖", 400))
 drops.Add(new Drop("炼狱", 400))

@@ -76,7 +76,7 @@ drops.Add(new Drop("狮子吼", 600))
 drops.Add(new Drop("双龙斩", 200))
 drops.Add(new Drop("吸气", 800))
 drops.Add(new Drop("护身气幕", 400))
-drops.Add(new Drop("攻破斩", 800))
+drops.Add(new Drop("空破闪", 800))
 drops.Add(new Drop("捕绳剑", 600))
 
 // 杂物

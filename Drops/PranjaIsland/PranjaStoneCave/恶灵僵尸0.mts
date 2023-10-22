@@ -11,7 +11,7 @@ drops.Add(new Drop(8000, 5));
 
 // 武器
 drops.Add(new Drop("冷月刀", 400))
-drops.Add(new Drop("LitheBow", 400))
+drops.Add(new Drop("霸王弓", 400))
 drops.Add(new Drop("怒斩", 400))
 drops.Add(new Drop("逍遥扇", 400))
 drops.Add(new Drop("凝霜", 14))
