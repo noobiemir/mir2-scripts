@@ -1,6 +1,5 @@
-import DropList from "../../common.mjs";
-const Drop = CS.Daboluo.Mir2.MirScripts.DropInfoDefinition;
-const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
+import { createDropList, Drop, GroupedDrop, GroupedDropMode } from "../../common.mjs";
+const drops = createDropList();
 
 // drops.Add(new Drop({物品},{几率}))
 // 物品：如输入数字，则为金钱掉落，如输入字符串则为物品掉落
@@ -33,7 +32,7 @@ drops.Add(new Drop("屠龙", 200))
 
 // -----------------------------
 // 350分之1机率，掉落以下物品中的一件。
-const groupedDrops = new CS.Daboluo.Mir2.MirScripts.GroupDropInfoDefinition(CS.Daboluo.Mir2.GroupedDropMode.Random);
+const groupedDrops = new GroupedDrop(GroupedDropMode.Random);
 groupedDrops.Add(new Drop("玄天", 1));
 groupedDrops.Add(new Drop("镇天", 1));
 groupedDrops.Add(new Drop("开天", 1));

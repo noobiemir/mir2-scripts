@@ -1,6 +1,5 @@
-import DropList from "../../../common.mjs";
-const Drop = CS.Daboluo.Mir2.MirScripts.DropInfoDefinition;
-const drops = new DropList<CS.Daboluo.Mir2.MirScripts.DropInfoDefinition>();
+import { createDropList, Drop } from "../../../common.mjs";
+const drops = createDropList();
 
 // drops.Add(new Drop({物品},{几率}))
 // 物品：如输入数字，则为金钱掉落，如输入字符串则为物品掉落
