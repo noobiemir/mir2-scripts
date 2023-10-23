@@ -22,11 +22,11 @@ drops.Add(new Drop("炎红战衣(男)", 700))
 drops.Add(new Drop("幽灵战衣(女)", 700))
 drops.Add(new Drop("幽灵战衣(男)", 700))
 drops.Add(new Drop("恶魔长袍(女)", 700))
-drops.Add(new Drop("TemperedArmour(女)", 700))
+drops.Add(new Drop("魂魅神衣(女)", 700))
 drops.Add(new Drop("战神盔甲(女)", 700))
 drops.Add(new Drop("战神盔甲(男)", 700))
 drops.Add(new Drop("炎红战衣(女)", 700))
-drops.Add(new Drop("TemperedArmour(男)", 700))
+drops.Add(new Drop("魂魅神衣(男)", 700))
 
 // 头盔
 

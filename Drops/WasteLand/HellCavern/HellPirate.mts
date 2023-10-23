@@ -21,8 +21,8 @@ drops.Add(new Drop("凝霜", 200))
 
 // 衣服
 drops.Add(new Drop("灵魂战衣(男)", 550))
-drops.Add(new Drop("LightLeatherArmour(女)", 550))
-drops.Add(new Drop("LightLeatherArmour(男)", 550))
+drops.Add(new Drop("轻革衣(女)", 550))
+drops.Add(new Drop("轻革衣(男)", 550))
 drops.Add(new Drop("残影魔衣(女)", 550))
 drops.Add(new Drop("残影魔衣(男)", 550))
 drops.Add(new Drop("灵魂战衣(女)", 550))

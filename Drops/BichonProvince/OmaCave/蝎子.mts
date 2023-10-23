@@ -75,7 +75,7 @@ drops.Add(new Drop("蝎尾", 3))
 // 鱼
 
 // 任务
-drops.Add(new Drop("AncientScyther", 200, 0, true))
+drops.Add(new Drop("远古镰刀", 200, 0, true))
 
 // 觉醒
 

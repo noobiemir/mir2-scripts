@@ -22,14 +22,14 @@ drops.Add(new Drop("魔杖", 400))
 drops.Add(new Drop("银蛇", 400))
 
 // 衣服
-drops.Add(new Drop("LightLeatherArmour(男)", 300))
+drops.Add(new Drop("轻革衣(男)", 300))
 drops.Add(new Drop("炎红战衣(女)", 300))
 drops.Add(new Drop("炎红战衣(男)", 300))
 drops.Add(new Drop("幽灵战衣(女)", 300))
 drops.Add(new Drop("幽灵战衣(男)", 300))
 drops.Add(new Drop("恶魔长袍(女)", 300))
 drops.Add(new Drop("战神盔甲(男)", 300))
-drops.Add(new Drop("LightLeatherArmour(女)", 300))
+drops.Add(new Drop("轻革衣(女)", 300))
 drops.Add(new Drop("恶魔长袍(男)", 300))
 drops.Add(new Drop("战神盔甲(女)", 300))
 

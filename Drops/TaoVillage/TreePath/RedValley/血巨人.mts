@@ -25,8 +25,8 @@ drops.Add(new Drop("修罗", 200))
 drops.Add(new Drop("双极刀", 2000))
 
 // 衣服
-drops.Add(new Drop("LightLeatherArmour(男)", 200))
-drops.Add(new Drop("LightLeatherArmour(女)", 200))
+drops.Add(new Drop("轻革衣(男)", 200))
+drops.Add(new Drop("轻革衣(女)", 200))
 drops.Add(new Drop("残影魔衣(女)", 200))
 drops.Add(new Drop("残影魔衣(男)", 200))
 drops.Add(new Drop("灵魂战衣(女)", 200))

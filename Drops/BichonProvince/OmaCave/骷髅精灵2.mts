@@ -27,11 +27,11 @@ drops.Add(new Drop("墨铁刀", 150))
 
 // 衣服
 drops.Add(new Drop("重盔甲(男)", 40))
-drops.Add(new Drop("LightLeatherArmour(女)", 40))
+drops.Add(new Drop("轻革衣(女)", 40))
 drops.Add(new Drop("残影魔衣(女)", 40))
 drops.Add(new Drop("残影魔衣(男)", 40))
 drops.Add(new Drop("灵魂战衣(女)", 40))
-drops.Add(new Drop("LightLeatherArmour(男)", 40))
+drops.Add(new Drop("轻革衣(男)", 40))
 drops.Add(new Drop("魔法长袍(女)", 40))
 drops.Add(new Drop("魔法长袍(男)", 40))
 drops.Add(new Drop("重盔甲(女)", 40))
@@ -141,7 +141,7 @@ drops.Add(new Drop("骨头", 5))
 
 // 任务
 drops.Add(new Drop("骷髅头", 1, 0, true))
-drops.Add(new Drop("AncientScyther", 5, 0, true))
+drops.Add(new Drop("远古镰刀", 5, 0, true))
 drops.Add(new Drop("骷髅骨", 1, 0, true))
 
 // 觉醒

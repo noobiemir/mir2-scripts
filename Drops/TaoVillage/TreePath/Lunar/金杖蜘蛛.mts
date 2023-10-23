@@ -17,8 +17,8 @@ drops.Add(new Drop("龙牙", 6000))
 drops.Add(new Drop("霸王弓", 6000))
 
 // 衣服
-drops.Add(new Drop("StuddedArmour(女)", 3000))
-drops.Add(new Drop("StuddedArmour(男)", 3000))
+drops.Add(new Drop("黄龙衣(女)", 3000))
+drops.Add(new Drop("黄龙衣(男)", 3000))
 drops.Add(new Drop("修罗血衣(女)", 3000))
 drops.Add(new Drop("修罗血衣(男)", 3000))
 drops.Add(new Drop("玄天宝衣(女)", 3000))

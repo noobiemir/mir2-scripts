@@ -127,7 +127,7 @@ drops.Add(new Drop("骨头", 2))
 
 // 任务
 drops.Add(new Drop("骷髅骨", 5, 0, true))
-drops.Add(new Drop("AncientScyther", 200, 0, true))
+drops.Add(new Drop("远古镰刀", 200, 0, true))
 drops.Add(new Drop("骷髅头骨", 5, 0, true))
 
 // 觉醒

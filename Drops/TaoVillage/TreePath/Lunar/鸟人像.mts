@@ -17,8 +17,8 @@ drops.Add(new Drop("逍遥扇", 600))
 drops.Add(new Drop("怒斩", 600))
 
 // 衣服
-drops.Add(new Drop("StuddedArmour(女)", 30))
-drops.Add(new Drop("StuddedArmour(男)", 30))
+drops.Add(new Drop("黄龙衣(女)", 30))
+drops.Add(new Drop("黄龙衣(男)", 30))
 drops.Add(new Drop("修罗血衣(女)", 30))
 drops.Add(new Drop("修罗血衣(男)", 30))
 drops.Add(new Drop("玄天宝衣(男)", 30))

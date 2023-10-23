@@ -35,14 +35,14 @@ drops.Add(new Drop("无极棍", 475))
 
 // 衣服
 drops.Add(new Drop("残影魔衣(男)", 25))
-drops.Add(new Drop("LightLeatherArmour(男)", 25))
+drops.Add(new Drop("轻革衣(男)", 25))
 drops.Add(new Drop("残影魔衣(女)", 25))
 drops.Add(new Drop("灵魂战衣(女)", 25))
 drops.Add(new Drop("灵魂战衣(男)", 25))
 drops.Add(new Drop("魔法长袍(男)", 25))
 drops.Add(new Drop("重盔甲(女)", 25))
 drops.Add(new Drop("重盔甲(男)", 25))
-drops.Add(new Drop("LightLeatherArmour(女)", 25))
+drops.Add(new Drop("轻革衣(女)", 25))
 drops.Add(new Drop("魔法长袍(女)", 25))
 
 // 头盔

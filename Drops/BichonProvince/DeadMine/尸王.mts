@@ -25,10 +25,10 @@ drops.Add(new Drop("钢斧", 6))
 drops.Add(new Drop("凌风", 10))
 
 // 衣服
-drops.Add(new Drop("LightLeatherArmour(女)", 55))
+drops.Add(new Drop("轻革衣(女)", 55))
 drops.Add(new Drop("中型盔甲(男)", 250))
 drops.Add(new Drop("残影魔衣(男)", 55))
-drops.Add(new Drop("LightLeatherArmour(男)", 55))
+drops.Add(new Drop("轻革衣(男)", 55))
 drops.Add(new Drop("中型盔甲(女)", 250))
 drops.Add(new Drop("残影魔衣(女)", 55))
 drops.Add(new Drop("魔法长袍(男)", 55))

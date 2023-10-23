@@ -78,7 +78,7 @@ drops.Add(new Drop("蜘蛛网", 10))
 // 任务
 drops.Add(new Drop("毒药袋", 3, 0, true))
 drops.Add(new Drop("网", 3, 0, true))
-drops.Add(new Drop("SpiderLeg", 7, 0, true))
+drops.Add(new Drop("蜘蛛腿", 7, 0, true))
 
 // 觉醒
 

@@ -45,10 +45,10 @@ drops.Add(new Drop("龙牙", 225))
 drops.Add(new Drop("血饮", 50))
 
 // 衣服
-drops.Add(new Drop("StuddedArmour(男)", 55))
+drops.Add(new Drop("黄龙衣(男)", 55))
 drops.Add(new Drop("天衣无缝(女)", 1000))
 drops.Add(new Drop("天衣无缝(男)", 1000))
-drops.Add(new Drop("StuddedArmour(女)", 55))
+drops.Add(new Drop("黄龙衣(女)", 55))
 drops.Add(new Drop("修罗血衣(女)", 55))
 drops.Add(new Drop("修罗血衣(男)", 55))
 drops.Add(new Drop("玄天宝衣(男)", 55))

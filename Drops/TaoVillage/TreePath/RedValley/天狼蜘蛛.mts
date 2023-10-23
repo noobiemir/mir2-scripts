@@ -33,8 +33,8 @@ drops.Add(new Drop("灵魂战衣(男)", 200))
 drops.Add(new Drop("灵魂战衣(女)", 200))
 drops.Add(new Drop("残影魔衣(男)", 200))
 drops.Add(new Drop("残影魔衣(女)", 200))
-drops.Add(new Drop("LightLeatherArmour(男)", 200))
-drops.Add(new Drop("LightLeatherArmour(女)", 200))
+drops.Add(new Drop("轻革衣(男)", 200))
+drops.Add(new Drop("轻革衣(女)", 200))
 
 // 头盔
 drops.Add(new Drop("道士头盔", 400))

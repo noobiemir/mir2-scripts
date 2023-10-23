@@ -79,7 +79,7 @@ drops.Add(new Drop("蛆卵", 10))
 
 // 任务
 drops.Add(new Drop("遗物", 5, 0, true))
-drops.Add(new Drop("AncientScyther", 200, 0, true))
+drops.Add(new Drop("远古镰刀", 200, 0, true))
 
 // 觉醒
 

@@ -18,7 +18,7 @@ drops.Add(new Drop("黑乌刀", 450))
 
 // 衣服
 drops.Add(new Drop("黑虎甲胄(男)", 200))
-drops.Add(new Drop("LightTemperedArmour(男)", 200))
+drops.Add(new Drop("玄符战衣(男)", 200))
 drops.Add(new Drop("黑虎甲胄(女)", 200))
 drops.Add(new Drop("莲盛魔衣(男)", 200))
 drops.Add(new Drop("莲盛魔衣(女)", 200))
@@ -26,7 +26,7 @@ drops.Add(new Drop("鹤羽圣衣(女)", 200))
 drops.Add(new Drop("黑乌飞甲(男)", 200))
 drops.Add(new Drop("黑乌飞甲(女)", 200))
 drops.Add(new Drop("鹤羽圣衣(男)", 200))
-drops.Add(new Drop("LightTemperedArmour(女)", 200))
+drops.Add(new Drop("玄符战衣(女)", 200))
 
 // 头盔
 

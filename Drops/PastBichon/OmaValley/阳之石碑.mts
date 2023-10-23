@@ -18,8 +18,8 @@ drops.Add(new Drop("龙牙", 5000))
 
 // 衣服
 drops.Add(new Drop("鬼面甲胄(男)", 1000))
-drops.Add(new Drop("TemperedArmour(女)", 700))
-drops.Add(new Drop("TemperedArmour(男)", 700))
+drops.Add(new Drop("魂魅神衣(女)", 700))
+drops.Add(new Drop("魂魅神衣(男)", 700))
 drops.Add(new Drop("炎红战衣(女)", 700))
 drops.Add(new Drop("幽灵战衣(女)", 700))
 drops.Add(new Drop("幽灵战衣(男)", 700))

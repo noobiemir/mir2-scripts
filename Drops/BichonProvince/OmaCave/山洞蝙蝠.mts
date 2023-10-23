@@ -81,7 +81,7 @@ drops.Add(new Drop("回城卷", 50))
 // 任务
 drops.Add(new Drop("蝙蝠牙", 5, 0, true))
 drops.Add(new Drop("蝙蝠翅膀", 6, 0, true))
-drops.Add(new Drop("AncientScyther", 200, 0, true))
+drops.Add(new Drop("远古镰刀", 200, 0, true))
 
 // 觉醒
 

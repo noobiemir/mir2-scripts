@@ -13,11 +13,11 @@ drops.Add(new Drop(700, 5));
 drops.Add(new Drop("修罗", 1000))
 
 // 衣服
-drops.Add(new Drop("StuddedArmour(女)", 1000))
+drops.Add(new Drop("黄龙衣(女)", 1000))
 drops.Add(new Drop("鬼面甲胄(男)", 1000))
 drops.Add(new Drop("火龙魔衣(女)", 1000))
 drops.Add(new Drop("玄天宝衣(男)", 1000))
-drops.Add(new Drop("StuddedArmour(男)", 1000))
+drops.Add(new Drop("黄龙衣(男)", 1000))
 drops.Add(new Drop("玄天宝衣(女)", 1000))
 drops.Add(new Drop("修罗血衣(男)", 1000))
 drops.Add(new Drop("鬼面甲胄(女)", 1000))

@@ -76,7 +76,7 @@ drops.Add(new Drop("食人花果", 5))
 // 鱼
 
 // 任务
-drops.Add(new Drop("CannibalPoison", 20))
+drops.Add(new Drop("食人花毒", 20))
 drops.Add(new Drop("食人花茎", 3, 0, true))
 drops.Add(new Drop("食人花果实", 3, 0, true))
 

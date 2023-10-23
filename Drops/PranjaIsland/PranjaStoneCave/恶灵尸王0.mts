@@ -17,8 +17,8 @@ drops.Add(new Drop("怒斩", 400))
 drops.Add(new Drop("冷月刀", 400))
 
 // 衣服
-drops.Add(new Drop("LightLeatherArmour(女)", 20))
-drops.Add(new Drop("LightLeatherArmour(男)", 20))
+drops.Add(new Drop("轻革衣(女)", 20))
+drops.Add(new Drop("轻革衣(男)", 20))
 drops.Add(new Drop("残影魔衣(女)", 20))
 drops.Add(new Drop("残影魔衣(男)", 20))
 drops.Add(new Drop("魔法长袍(女)", 20))
