@@ -31,6 +31,17 @@ drops.Add(new Drop("龙牙", 150))
 drops.Add(new Drop("怒斩", 150))
 drops.Add(new Drop("屠龙", 200))
 
+// -----------------------------
+// 350分之1机率，掉落以下物品中的一件。
+const groupedDrops = new CS.Daboluo.Mir2.MirScripts.GroupDropInfoDefinition(CS.Daboluo.Mir2.GroupedDropMode.Random);
+groupedDrops.Add(new Drop("玄天", 1));
+groupedDrops.Add(new Drop("镇天", 1));
+groupedDrops.Add(new Drop("开天", 1));
+groupedDrops.Add(new Drop("地狱魔弓", 1));
+groupedDrops.Add(new Drop("暗真魔刀", 1));
+drops.Add(new Drop(350, groupedDrops));
+// -----------------------------
+
 // 衣服
 drops.Add(new Drop("鬼面甲胄(男)", 5))
 drops.Add(new Drop("火龙魔衣(女)", 5))
