@@ -1,9 +1,9 @@
 import { createDropList, Drop } from "../../common.mjs";
 const drops = createDropList();
 
-// drops.Add(new Drop({物品},{几率}))
+// drops.Add(new Drop({物品},{权重}))
 // 物品：如输入数字，则为金钱掉落，如输入字符串则为物品掉落
-// 几率：物品掉落率为 1 ÷ {几率}，如100则几率为 1%; 400 则为 0.25%
+// 权重：物品掉落率为 1 ÷ {权重}，如100则几率为 1%; 400 则为 0.25%
 
 // 钱
 drops.Add(new Drop(350, 10));

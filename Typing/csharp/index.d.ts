@@ -907,14 +907,14 @@
         class DropInfoDefinition extends System.Object
         {
             protected [__keep_incompatibility]: never;
-            public get Chance(): number;
+            public get Weights(): number;
             public get Gold(): number | null;
             public get Type(): number;
             public get QuestRequired(): boolean;
             public get GroupDrop(): Daboluo.Mir2.MirScripts.GroupDropInfoDefinition;
-            public constructor ($gold: number, $chance: number)
-            public constructor ($item: string, $chance: number, $type?: number, $questRequired?: boolean)
-            public constructor ($chance: number, $groupDrop: Daboluo.Mir2.MirScripts.GroupDropInfoDefinition)
+            public constructor ($gold: number, $weights: number)
+            public constructor ($item: string, $weights: number, $type?: number, $questRequired?: boolean)
+            public constructor ($weights: number, $groupDrop: Daboluo.Mir2.MirScripts.GroupDropInfoDefinition)
             public constructor ()
         }
         class ServerSettingsDefinition extends System.Object
